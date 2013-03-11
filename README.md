@@ -21,7 +21,7 @@ Listar shell disponíveis: `$ cat /etc/shells`
 ## Vantagens e desvantagens
 
 - Possui boas ferramentas para manipulação de arquivos e troca de dados de um programa para outro.
-- Obtenção rápida de informações sobre o SO.
+- Obtenção rápida de informações sobre o SO (Quick and dirty).
 - Velocidade de execução lenta (Precisa abrir um novo processo quase toda vez que um comando é executado).
 
 ## Variáveis de ambiente
