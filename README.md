@@ -132,8 +132,9 @@ Exemplos:
 
 ## Coringas (Wildcards)
 
-São caracteres que podem ser utilizados como curingas em alguns comentos, substituindo outros caracteres ou sequências de caracteres.
-Os coringas são o asterisco `*`, interrogação `?` e colchetes `[]`
+São caracteres que podem ser utilizados como coringas para ajudar a trabalhar com nome de arquivos,
+substituindo outros caracteres ou sequências de caracteres.
+Os coringas disponíveis são o asterisco `*`, interrogação `?` e colchetes `[]`
 
 ### Asterisco (*)
 
