@@ -10,7 +10,7 @@ originalmente feito por Pedro H. P. Souza ([@predoff](http://twitter.com/predoff
 
 Shell é uma interface que permite a interação do usuário com o sistema operacional (Kernel) através de linhas de comandos.
 
-O primeiro shell Unix, o Bourne shell (sh) foi criado por Ken Thompson, uma das principal influência do UNIX.
+O primeiro shell Unix, o Thompson shell foi criado por Ken Thompson, uma das principal influência do UNIX.
 O SHELL que usamos normalmente é o bash, Bourne-again shell, escrito por Brian Fox para o Projeto GNU, isso quer dizer
 que se trata de um software livre.
 
