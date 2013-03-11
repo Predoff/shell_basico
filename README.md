@@ -67,6 +67,16 @@ Exemplos:
     $ apropos ruby
     $ whereis ruby
 
+## Atalhos
+
+Segue abaixo alguns atalhos úteis para serem usuados no terminal:
+
+- CTRL + L: Limpa a tela.
+- CTRL + U: Limpa linha.
+- CTRL + C: Cancela o comando que está sendo executado.
+- CTRL + R: Procura por comandos no histórico.
+- Tab: Auto-complete (não deixe de usar esse comando!!!!)
+
 ## Chaves
 
 São opções adicionadas ao comando para que executem algo especial.
