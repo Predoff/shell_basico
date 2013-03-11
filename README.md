@@ -60,6 +60,7 @@ O Shell disponibiliza comandos caso precise saber detalhes ou dúvidas de como u
 - `whatis`: Exibe pequena descrição sobre o comando.
 - `apropos`: Busca na descrição (whatis) o termo pedido.
 - `whereis`: Exibe o diretório binário.
+- `history`: Exibe últimos comandos executados.
 
 Exemplos:
 
