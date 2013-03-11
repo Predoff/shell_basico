@@ -24,6 +24,12 @@ Listar shell disponíveis: `$ cat /etc/shells`
 - Obtenção rápida de informações sobre o SO (Quick and dirty).
 - Velocidade de execução lenta (Precisa abrir um novo processo quase toda vez que um comando é executado).
 
+## Executando o Shell
+
+Para Sistemas Linux ou Mac OS basta abrir o Terminal para começar a usar o Shell. Já no caso de Windows,
+temos o ambiente Command.com, porém ele não oferece todas as funcionalidades atuais dos shells do Unix, para resolver
+essa limitação é necessário instalar outro shell, como por exemplo o [Cygwin](http://www.cygwin.com/).
+
 ## Variáveis de ambiente
 
 São variáveis geradas pelo sistema operacional ou pelo próprio usuário.
