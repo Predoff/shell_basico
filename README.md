@@ -1,4 +1,4 @@
-SHELL
+SHELL BÁSICO
 ============
 
 ## Introdução
@@ -60,6 +60,7 @@ O Shell disponibiliza comandos caso precise saber detalhes ou dúvidas de como u
 - `whatis`: Exibe pequena descrição sobre o comando.
 - `apropos`: Busca na descrição (whatis) o termo pedido.
 - `whereis`: Exibe o diretório binário.
+- `type`: Exibe o tipo de comando ([Ver mais sobre tipos de comandos](http://bash.cyberciti.biz/guide/Type_command)).
 - `history`: Exibe últimos comandos executados.
 
 Exemplos:
@@ -70,7 +71,7 @@ Exemplos:
 
 ## Atalhos
 
-Segue abaixo alguns atalhos úteis para serem usuados no terminal:
+Segue abaixo alguns atalhos úteis para serem utilizados no terminal:
 
 - CTRL + L: Limpa a tela.
 - CTRL + U: Limpa linha.
@@ -195,4 +196,5 @@ Caso queira colocar em prática os conceitos apresentados aqui, faça os [exerc�
 
 - [Wikipedia - Shell](http://en.wikipedia.org/wiki/Shell_(computing)
 - [Descobrindo o Linux – 3ª Edição](http://www.novateceditora.com.br/livros/linux3/)
+- [Linux Shell Scripting Tutorial](http://bash.cyberciti.biz/guide/Main_Page)
 - [Google](http://google.com)
