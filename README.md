@@ -8,7 +8,7 @@ originalmente feito por Pedro H. P. Souza ([@predoff](http://twitter.com/predoff
 
 ## Slides
 
-A apresentação foi feita utilizando o [impress.js](https://github.com/bartaz/impress.js/). Você pode conferir o resultado [aqui](http://bartaz.github.com/shell_basico).
+A apresentação foi feita utilizando o [impress.js](https://github.com/bartaz/impress.js/). Você pode conferir o resultado [aqui](http://predoff.github.com/shell_basico).
 
 ## O que é?
 
