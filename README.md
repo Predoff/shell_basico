@@ -232,6 +232,12 @@ Caso queira alterá-lo, ele fica localizado no diretório raiz (`cd ~`).
 ## Exercícios
 
 Caso queira colocar em prática os conceitos apresentados aqui, faça os [exercícios](exercicios.md)
+Outros exercícios e exemplos de shell disponíveis na web:
+
+- [http://eriberto.pro.br/wiki/index.php?title=Shell](http://eriberto.pro.br/wiki/index.php?title=Shell)
+- [http://freeos.com/guides/lsst/ch08.html](http://freeos.com/guides/lsst/ch08.html)
+- [http://htaccess.wordpress.com/2007/12/08/unix-shell-script-examples/](http://htaccess.wordpress.com/2007/12/08/unix-shell-script-examples/)
+- [http://www.intuitive.com/wicked/wicked-cool-shell-script-library.shtml](http://www.intuitive.com/wicked/wicked-cool-shell-script-library.shtml)
 
 ## Fontes
 
