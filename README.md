@@ -89,6 +89,10 @@ Segue abaixo alguns atalhos úteis para serem utilizados no terminal:
 - CTRL + R: Procura por comandos no histórico.
 - Tab: Auto-complete (não deixe de usar esse comando!!!!)
 
+## Palavras-chave (keywords)
+
+São palavras reservadas pelo Shell que não podem ser utilizadas para nomear variáveis e funções. Para lista: `man builtin`
+
 ## Chaves
 
 São opções adicionadas ao comando para que executem algo especial.
@@ -202,11 +206,21 @@ Esses comandos não salvam no arquivo externo as mensagens de erro, se quiser ut
 
 ## IF
 
+Exemplo:
+
     if (false) then
         echo "false is true"
     else
         echo "false is false"
     fi
+
+### O que é true?
+
+Comandos Unix retornam zero (0) quando executam com sucesso, ou seja, qualquer outro retorno é igual a false.
+
+    exit 0  # é true
+    exit 1  # é false
+    exit -1 # é false
 
 ## FOR
 
