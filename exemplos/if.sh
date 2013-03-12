@@ -22,3 +22,26 @@ elif (test $num -gt 6) then
 else
   echo "Num less then 6"
 fi
+
+
+# Exit 0
+
+if (exit 0) then
+  echo "0 is true"
+fi
+
+# Exit 1
+
+if (exit 1) then
+  echo "exit 1 is true"
+else
+  echo "exit 1 is false"
+fi
+
+# Exit 1
+
+if (exit -1) then
+  echo "exit -1 is true"
+else
+  echo "exit -1 is false"
+fi
