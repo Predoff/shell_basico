@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>SHELL BÁSICO</title>
+
+    <meta name="description" content="Esse conteúdo é uma breve explicação do que é o SHELL e como utilizá-lo, originalmente feito por Pedro H. P. Souza (@predoff) para ser apresentado na Tagview." />
+    <meta name="author" content="Pedro H P Souza (@Predoff)" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <h1 class="title">SHELL</h1>
+        <a href="http://twitter.com/predoff" class="twitter">@predoff</a>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <h1>O que é?</h1>
+        <q>Shell é uma interface que permite a interação do usuário com o sistema operacional (Kernel) através de linhas de comandos.</q>
+    </div>
+
+    <div class="step slide" data-x="-1000" data-y="-1500">
+        <h1>Prós e Contras</h1>
+        <q></q>
+        <ul>
+            <li>Possui boas ferramentas para manipulação de arquivos e troca de dados de um programa para outro.</li>
+            <li>Obtenção rápida de informações sobre o S.O. (Quick and dirty).</li>
+            <li>Velocidade de execução lenta (Precisa abrir um novo processo quase toda vez que um comando é executado).</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="-1000" data-y="-700">
+        <h1>Variáveis de ambiente</h1>
+        <q>
+            São variáveis atribuídas pelo sistema operacional ou pelo próprio usuário.
+            Existem dois tipos: <b>Globais</b> ou <b>Locais</b>.
+        </q>
+    </div>
+
+    <div class="step slide" data-x="-1000" data-y="100">
+        <h1>Variáveis globais</h1>
+        <q>Acessíveis em todos os SHELLS. Para listar as variáveis disponíveis digite <b>$</b> env ou <b>$ printenv</b></q>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="100">
+        <h1>Variáveis locais</h1>
+        <q>Acessível apenas no escopo definido. Para lista as variáveis locais digite <b>$ set.</b>
+                    Caso queira que essa variável seja acessível em um script use <b>$ export variavel.</b></q>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="100">
+        <h1>Comandos de Ajuda</h1>
+        <q>Existem comandos de ajuda no Shell para caso de dúvidas:</q>
+        <ul>
+            <li>man</li>
+            <li>whatis</li>
+            <li>apropos</li>
+            <li>whereis</li>
+            <li>type</li>
+            <li>history</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="900">
+        <h1>Atalhos Terminal</h1>
+        <q></q>
+        <ul>
+            <li>CTRL + L: Limpa a tela.</li>
+            <li>CTRL + U: Limpa linha.</li>
+            <li>CTRL + C: Cancela o comando que está sendo executado.</li>
+            <li>CTRL + R: Procura por comandos no histórico.</li>
+            <li>Tab: Auto-complete (não deixe de usar esse comando!!!!)</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="1700">
+        <h1>Chaves</h1>
+        <q>São opções adicionadas ao comando para que executem algo especial.</q>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="1700">
+        <h1>Concatenação</h1>
+        <q>Utilizando o caracter ponto e vírgula é possível concatenar comandos, ou seja, executar um após o outro.</q>
+    </div>
+
+    <div class="step slide" data-x="-1000" data-y="1700">
+        <h1>Conexão (pipeline)</h1>
+        <q>Conectar comandos é executar um comando baseado no resultado gerado de outro comando.</q>
+    </div>
+
+    <div class="step slide" data-x="2800" data-y="-1500">
+        <h1>Recursividade</h1>
+        <q>Uma operação recursiva ocorre quando ela varre diretórios e seus diretórios "filhos" recursivamente.</q>
+    </div>
+
+    <div class="step slide" data-x="2800" data-y="-700">
+        <h1>Wildcards (curingas)</h1>
+        <q>São caracteres que podem ser utilizados como coringas para ajudar a trabalhar com nome de arquivos, substituindo outros caracteres ou sequências de caracteres.</q>
+    </div>
+
+    <div class="step slide" data-x="2800" data-y="100">
+        <h1>Uso de asterisco</h1>
+        <q>
+           O asterisco substitui de zero a muitos caracteres.
+        </q>
+    </div>
+
+    <div class="step slide" data-x="2800" data-y="900">
+        <h1>Uso de interrogação</h1>
+        <q>Substitui 1 caracter e é obrigatório ter esse caracter.</q>
+    </div>
+
+    <div class="step slide" data-x="2800" data-y="1700">
+        <h1>Uso de Colchetes</h1>
+        <q>Substitui um grupo de caracters. Você pode negar esse grupo utilizando exclamação <b>(!)</b>.</q>
+    </div>
+
+    <div class="step slide" data-x="3800" data-y="100">
+        <h1>Aliases</h1>
+        <q>Alias é uma forma de criar um atalho para simplificar um comando.</q>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="-1500">
+        <h1>Output Redirection</h1>
+        <q>Técnica usada para que o resultado de um comando seja salvo em um arquivo.</q>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="-700">
+        <h1>Expressão regular</h1>
+        <q>
+            O uso de expressão regular também é possível em alguns comandos como o egrep
+            para definir padrões (patterns).
+        </q>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="100">
+        <h1>Operadores lógicos</h1>
+        <q>&&: Sucesso na opração anterior.</q>
+        <q>||: Falha na operação anterior.</q>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="900">
+        <h1>.bashrc e .bash_profile</h1>
+        <q>
+            Podem conter informações úteis para execução de scripts ou comandos.
+            Para carregar a configuração é utilizado o comando <b>source</b>
+        </q>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="1700">
+        <h1>Fontes</h1>
+        <q></q>
+        <ul>
+            <li><a href="http://en.wikipedia.org/wiki/Shell_(computing)">Wikipedia - Shell</a></li>
+            <li><a href="http://www.novateceditora.com.br/livros/linux3/">Descobrindo o Linux – 3ª Edição</a></li>
+            <li><a href="http://bash.cyberciti.biz/guide/Main_Page">Linux Shell Scripting Tutorial</a></li>
+            <li><a href="http://google.com">Google</a></li>
+        </ul>
+    </div>
+
+    <div id="overview" class="step" data-x="2000" data-y="200" data-scale="8">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
+
