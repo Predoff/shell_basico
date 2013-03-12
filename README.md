@@ -6,6 +6,10 @@ SHELL BÁSICO
 Esse conteúdo é uma breve explicação do que é o SHELL e como utilizá-lo,
 originalmente feito por Pedro H. P. Souza ([@predoff](http://twitter.com/predoff)) para ser apresentado na [Tagview](http://tagview.com.br).
 
+## Slides
+
+A apresentação foi feita utilizando o [impress.js](https://github.com/bartaz/impress.js/). Você pode conferir o resultado [aqui](http://bartaz.github.com/shell_basico).
+
 ## O que é?
 
 Shell é uma interface que permite a interação do usuário com o sistema operacional (Kernel) através de linhas de comandos.
