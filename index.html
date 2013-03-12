@@ -44,26 +44,25 @@
         </ul>
     </div>
 
-    <div class="step slide" data-x="-1000" data-y="-700">
-        <h1>Variáveis de ambiente</h1>
+    <!--
+    <h1>Variáveis de ambiente</h1>
         <q>
             São variáveis atribuídas pelo sistema operacional ou pelo próprio usuário.
             Existem dois tipos: <b>Globais</b> ou <b>Locais</b>.
         </q>
-    </div>
-
-    <div class="step slide" data-x="-1000" data-y="100">
+    -->
+    <div class="step slide" data-x="-1000" data-y="-700">
         <h1>Variáveis globais</h1>
         <q>Acessíveis em todos os SHELLS. Para listar as variáveis disponíveis digite <b>$</b> env ou <b>$ printenv</b></q>
     </div>
 
-    <div class="step slide" data-x="0" data-y="100">
+    <div class="step slide" data-x="-1000" data-y="100">
         <h1>Variáveis locais</h1>
         <q>Acessível apenas no escopo definido. Para lista as variáveis locais digite <b>$ set.</b>
-                    Caso queira que essa variável seja acessível em um script use <b>$ export variavel.</b></q>
+           Caso queira que essa variável seja acessível em um script use <b>$ export variavel.</b></q>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="100">
+    <div class="step slide" data-x="0" data-y="100">
         <h1>Comandos de Ajuda</h1>
         <q>Existem comandos de ajuda no Shell para caso de dúvidas:</q>
         <ul>
@@ -76,7 +75,7 @@
         </ul>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="900">
+    <div class="step slide" data-x="1000" data-y="100">
         <h1>Atalhos Terminal</h1>
         <q></q>
         <ul>
@@ -88,59 +87,53 @@
         </ul>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="1700">
+    <div class="step slide" data-x="1000" data-y="900">
         <h1>Chaves</h1>
         <q>São opções adicionadas ao comando para que executem algo especial.</q>
     </div>
 
-    <div class="step slide" data-x="0" data-y="1700">
+    <div class="step slide" data-x="1000" data-y="1700">
         <h1>Concatenação</h1>
         <q>Utilizando o caracter ponto e vírgula é possível concatenar comandos, ou seja, executar um após o outro.</q>
     </div>
 
-    <div class="step slide" data-x="-1000" data-y="1700">
+    <div class="step slide" data-x="0" data-y="1700">
         <h1>Conexão (pipeline)</h1>
         <q>Conectar comandos é executar um comando baseado no resultado gerado de outro comando.</q>
     </div>
 
-    <div class="step slide" data-x="2800" data-y="-1500">
+    <div class="step slide" data-x="-1000" data-y="1700">
         <h1>Recursividade</h1>
         <q>Uma operação recursiva ocorre quando ela varre diretórios e seus diretórios "filhos" recursivamente.</q>
     </div>
 
-    <div class="step slide" data-x="2800" data-y="-700">
+    <div class="step slide" data-x="2800" data-y="-1500">
         <h1>Wildcards (curingas)</h1>
         <q>São caracteres que podem ser utilizados como coringas para ajudar a trabalhar com nome de arquivos, substituindo outros caracteres ou sequências de caracteres.</q>
     </div>
 
-    <div class="step slide" data-x="2800" data-y="100">
-        <h1>Uso de asterisco</h1>
+    <div class="step slide" data-x="2800" data-y="-700">
+        <h1>Wildcards</h1>
         <q>
-           O asterisco substitui de zero a muitos caracteres.
         </q>
+        <ul>
+            <li>Asterisco (*): O asterisco substitui de zero a muitos caracteres.</li>
+            <li>Interrogação (?): Substitui 1 caracter e é obrigatório ter esse caracter.</li>
+            <li>Colchetes ([]): Substitui um grupo de caracters. Você pode negar esse grupo utilizando exclamação <b>(!)</b>.</li>
+        </ul>
     </div>
 
-    <div class="step slide" data-x="2800" data-y="900">
-        <h1>Uso de interrogação</h1>
-        <q>Substitui 1 caracter e é obrigatório ter esse caracter.</q>
-    </div>
-
-    <div class="step slide" data-x="2800" data-y="1700">
-        <h1>Uso de Colchetes</h1>
-        <q>Substitui um grupo de caracters. Você pode negar esse grupo utilizando exclamação <b>(!)</b>.</q>
-    </div>
-
-    <div class="step slide" data-x="3800" data-y="100">
+    <div class="step slide" data-x="2800" data-y="100">
         <h1>Aliases</h1>
         <q>Alias é uma forma de criar um atalho para simplificar um comando.</q>
     </div>
 
-    <div class="step slide" data-x="4800" data-y="-1500">
+    <div class="step slide" data-x="2800" data-y="900">
         <h1>Output Redirection</h1>
         <q>Técnica usada para que o resultado de um comando seja salvo em um arquivo.</q>
     </div>
 
-    <div class="step slide" data-x="4800" data-y="-700">
+    <div class="step slide" data-x="2800" data-y="1700">
         <h1>Expressão regular</h1>
         <q>
             O uso de expressão regular também é possível em alguns comandos como o egrep
@@ -148,10 +141,40 @@
         </q>
     </div>
 
-    <div class="step slide" data-x="4800" data-y="100">
+    <div class="step slide" data-x="3800" data-y="100">
         <h1>Operadores lógicos</h1>
-        <q>&&: Sucesso na opração anterior.</q>
+        <q>&&: Sucesso na operação anterior.</q>
         <q>||: Falha na operação anterior.</q>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="-1500">
+        <h1>IF</h1>
+        <pre style="margin-top: 160px; font-size: 46px; line-height: 60px;">
+            if (false) then
+                echo "false is true"
+            else
+                echo "false is false"
+            fi
+        </pre>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="-700">
+        <h1>Loop com FOR ou WHILE</h1>
+        <pre style="margin-top: 160px; font-size: 46px; line-height: 60px;">
+             for i in 1 2 3
+             do
+                echo "$i"
+             done
+        </pre>
+    </div>
+
+    <div class="step slide" data-x="4800" data-y="100">
+        <h1>FUNÇÃO</h1>
+        <pre style="margin-top: 160px; font-size: 46px; line-height: 60px;">
+            function hello_world {
+                echo "Olá"
+            }
+        </pre>
     </div>
 
     <div class="step slide" data-x="4800" data-y="900">

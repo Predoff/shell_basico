@@ -191,6 +191,27 @@ Esses comandos não salvam no arquivo externo as mensagens de erro, se quiser ut
     $ ls xyz 2> log.txt
     $ ls xyz 2>> log.txt
 
+## IF
+
+    if (false) then
+        echo "false is true"
+    else
+        echo "false is false"
+    fi
+
+## FOR
+
+    for i in 1 2 3
+    do
+        echo "$i"
+    done
+
+## Função
+
+    function hello_world {
+        echo "Olá"
+    }
+
 ## .bashrc e .bash_profile
 
 O bash interpreta e executa os comandos desses arquivos quando uma nova janela do terminal é aberta.
