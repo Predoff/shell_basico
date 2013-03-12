@@ -75,7 +75,7 @@ Exemplos:
     $ apropos ruby
     $ whereis ruby
 
-## Atalhos
+## Atalhos do Terminal
 
 Segue abaixo alguns atalhos úteis para serem utilizados no terminal:
 
