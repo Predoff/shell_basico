@@ -191,6 +191,15 @@ Esses comandos não salvam no arquivo externo as mensagens de erro, se quiser ut
     $ ls xyz 2> log.txt
     $ ls xyz 2>> log.txt
 
+## Expressão regular
+
+    ls /etc | grep s.el
+
+## Operadores Lógicos
+
+- &&: Sucesso na operação anterior.
+- ||: Falha na operação anterior.
+
 ## IF
 
     if (false) then
